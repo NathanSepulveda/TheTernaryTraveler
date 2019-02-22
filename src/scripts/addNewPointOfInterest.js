@@ -17,7 +17,7 @@ let addNewPointOfInterest = () => {
 
         if (name !== "" && description !== "") {
 
-            console.log(newPointOfInterest)
+            // console.log(newPointOfInterest)
             APIDataManger.postNewPointOfInterest(newPointOfInterest)
                 .then(() => {
                     document.querySelector("#interestDisplay").innerHTML = ""

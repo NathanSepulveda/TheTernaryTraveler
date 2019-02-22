@@ -1,0 +1,39 @@
+{
+    "places": [
+        {
+            "id": 1,
+            "name": "Italy",
+            "visa_required": false
+        },
+        {
+            "id": 2,
+            "name": "Switzerland",
+            "visa_required": true
+        },
+        {
+            "id": 3,
+            "name": "France",
+            "visa_required": false
+        }
+    ],
+    "interests": [
+        {
+            "id": 1,
+            "placeId": 1,
+            "name": "Local Market",
+            "description": "Local market where you can try purchase local products and try the local food"
+        },
+        {
+            "id": 2,
+            "placeId": 2,
+            "name": "Chocolate Factory",
+            "description": "Local factory where you can try purchase local artisan chocolate and see how it is made"
+        },
+        {
+            "id": 3,
+            "placeId": 3,
+            "name": "Eiffel Tower",
+            "description": "Look at the tower!"
+        }
+    ]
+}

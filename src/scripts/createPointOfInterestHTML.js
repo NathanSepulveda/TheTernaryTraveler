@@ -1,11 +1,15 @@
+
+// populateDropdown()
+
 let createPointOfInterestHTML = (point) => {
-    let display = document.querySelector(".output")
+    let display = document.querySelector("#interestDisplay")
     let html = `
     <h1>${point.name}</h1>
     <h2>${point.place.name}</h2>
     <p>${point.description}</p>
-    <button id="${point.id}">Delete This Point of Interest</button>`
-
+    <button id="delete--${point.id}">Delete This Point of Interest</button>`
+    
+    // display.innerHTML = ""
     display.innerHTML += html
 }
 

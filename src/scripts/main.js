@@ -1,11 +1,13 @@
 import APIDataManger from "./APIDataManager";
 import createPointOfInterestHTML from "./createPointOfInterestHTML";
+import createMainHTML from "./createMainHTML";
+import displayPointOfInterest from "./displayPointsOfInterest";
+import createForm from "./createForm";
+import addNewPointOfInterest from "./addNewPointOfInterest";
+import deletePoint from "./deletePoint";
 
-
-APIDataManger.getPointsOfInterest().then((interests => {
-    console.log(interests)
-    interests.forEach(interest => {
-        createPointOfInterestHTML(interest)
-        
-    });
-}))
+createMainHTML()
+displayPointOfInterest()
+createForm()
+addNewPointOfInterest()
+deletePoint()
